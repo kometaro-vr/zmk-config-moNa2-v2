@@ -216,16 +216,18 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        HRM_R {
+        layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&kp EXCLAMATION  &kp DQT    &kp HASH   &kp DOLLAR  &kp PERCENT                              &kp AMPERSAND  &kp PIPE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&kp QUESTION     &kp SQT    &kp EQUAL  &kp TILDE   &kp UNDERSCORE            &trans         &kp MINUS      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN
+&none            &kp GRAVE  &none      &none       &kp CARET       &trans    &trans         &kp PLUS       &kp ASTERISK      &kp COMMA             &kp PERIOD             &kp SLASH
+&trans           &trans     &trans     &trans      &trans          &trans    &kp LC(SPACE)  &none                                                                         &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
         };
 
-        HRM_L {
+        layer_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
@@ -247,10 +249,10 @@
 
         SCROLL {
             bindings = <
-&kp EXCLAMATION  &kp DQT    &kp HASH   &kp DOLLAR  &kp PERCENT                              &kp AMPERSAND  &kp PIPE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&kp QUESTION     &kp SQT    &kp EQUAL  &kp TILDE   &kp UNDERSCORE            &trans         &kp MINUS      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN
-&none            &kp GRAVE  &none      &none       &kp CARET       &trans    &trans         &kp PLUS       &kp ASTERISK      &kp COMMA             &kp PERIOD             &kp SLASH
-&trans           &trans     &trans     &trans      &trans          &trans    &kp LC(SPACE)  &none                                                                         &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
