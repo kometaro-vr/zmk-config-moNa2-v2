@@ -189,7 +189,7 @@
 &mo 1  &kp LEFT_WIN  &kp LEFT_ALT  &mo 2  &lt 3 SPACE  &mt LSHFT TAB    &kp BACKSPACE  &kp ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_1 {
@@ -200,7 +200,7 @@
 &trans   &trans   &trans  &trans  &kp SPACE       &kp TAB    &kp LEFT_SHIFT  &kp RIGHT_SHIFT                                   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_2 {
@@ -222,7 +222,7 @@
 &trans           &trans     &trans     &trans      &trans          &trans    &kp LC(SPACE)  &none                                                                         &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         layer_4 {
