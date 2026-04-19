@@ -36,64 +36,9 @@
             key-positions = <26 27 15>;
         };
 
-        trackball_scroll {
-            bindings = <&mo 0>;
-            key-positions = <30 31>;
-        };
-
-        lang1 {
-            bindings = <&kp LANG1>;
-            key-positions = <38 39>;
-        };
-
-        lang2 {
-            bindings = <&kp LANG2>;
-            key-positions = <37 40>;
-        };
-
         middl_click {
             bindings = <&mkp MB3>;
-            key-positions = <30 29>;
-        };
-
-        fnscroll-l {
-            bindings = <&mo 0>;
-            key-positions = <13 12>;
-        };
-
-        fnscroll-r {
-            bindings = <&mo 0>;
-            key-positions = <17 18>;
-        };
-
-        LeftCtrl {
-            bindings = <&kp LEFT_CONTROL>;
-            key-positions = <11 13>;
-        };
-
-        RightCtrl {
-            bindings = <&kp RIGHT_CONTROL>;
-            key-positions = <17 19>;
-        };
-
-        LeftAlt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <14 12>;
-        };
-
-        RightAlt {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <16 18>;
-        };
-
-        LeftGui {
-            bindings = <&kp LEFT_GUI>;
-            key-positions = <14 11>;
-        };
-
-        RightGui {
-            bindings = <&kp RIGHT_GUI>;
-            key-positions = <16 19>;
+            key-positions = <30 31>;
         };
 
         esc {
@@ -216,10 +161,10 @@
 
         layer_3 {
             bindings = <
-&kp EXCLAMATION  &kp DQT    &kp HASH   &kp DOLLAR  &kp PERCENT                              &kp AMPERSAND  &kp PIPE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&kp QUESTION     &kp SQT    &kp EQUAL  &kp TILDE   &kp UNDERSCORE            &trans         &kp MINUS      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN
-&none            &kp GRAVE  &none      &none       &kp CARET       &trans    &trans         &kp PLUS       &kp ASTERISK      &kp COMMA             &kp PERIOD             &kp SLASH
-&trans           &trans     &trans     &trans      &trans          &trans    &kp LC(SPACE)  &none                                                                         &trans
+&kp EXCLAMATION  &kp DQT    &kp HASH   &kp DOLLAR  &kp PERCENT                         &kp AMPERSAND  &kp PIPE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&kp QUESTION     &kp SQT    &kp EQUAL  &kp TILDE   &kp UNDERSCORE            &trans    &kp MINUS      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN
+&none            &kp GRAVE  &none      &none       &kp CARET       &trans    &trans    &kp PLUS       &kp ASTERISK      &kp COMMA             &kp PERIOD             &kp SLASH
+&trans           &trans     &trans     &trans      &trans          &trans    &mkp MB4  &mkp MB5                                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
