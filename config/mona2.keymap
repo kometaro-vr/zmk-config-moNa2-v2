@@ -139,10 +139,10 @@
 
         layer_1 {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                    &kp PG_UP         &kp HOME           &kp UP_ARROW    &kp END           &none
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10                   &trans          &kp PG_DN         &kp LEFT           &kp DOWN_ARROW  &kp RIGHT         &trans
-&kp F11  &kp F12  &none   &none   &kp KP_NUMLOCK  &trans    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LT          &kp GREATER_THAN  &trans
-&trans   &trans   &trans  &trans  &kp SPACE       &trans    &kp LEFT_SHIFT  &kp RIGHT_SHIFT                                                        &trans
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                   &none      &kp HOME  &kp UP_ARROW    &kp END           &none
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10                      &trans      &kp PG_UP  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT         &kp LCTRL
+&kp F11  &kp F12  &none   &none   &kp KP_NUMLOCK  &trans       &trans      &kp PG_DN  &none     &kp LT          &kp GREATER_THAN  &kp LALT
+&trans   &trans   &trans  &trans  &kp SPACE       &kp LSHFT    &kp RSHIFT  &trans                                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -163,7 +163,7 @@
             bindings = <
 &kp EXCLAMATION  &kp DQT    &kp HASH   &kp DOLLAR  &kp PERCENT                         &kp AMPERSAND  &kp PIPE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
 &kp QUESTION     &kp SQT    &kp EQUAL  &kp TILDE   &kp UNDERSCORE            &trans    &kp MINUS      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN
-&none            &kp GRAVE  &none      &none       &kp CARET       &trans    &trans    &kp PLUS       &kp ASTERISK      &kp COMMA             &kp PERIOD             &kp SLASH
+&none            &kp GRAVE  &kp LBKT   &kp RBKT    &kp CARET       &trans    &trans    &kp PLUS       &kp ASTERISK      &kp COMMA             &kp PERIOD             &kp SLASH
 &trans           &trans     &trans     &trans      &trans          &trans    &mkp MB4  &mkp MB5                                                                      &trans
             >;
 
