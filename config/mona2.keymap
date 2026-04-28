@@ -150,10 +150,10 @@
 
         layer_2 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp KP_PLUS  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS
-&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0            &trans    &kp DOT      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MULTIPLY
-&kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp DOT       &trans    &trans    &kp KP_N0    &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DIVIDE
-&trans        &trans        &trans        &trans        &trans        &trans    &mkp MB4  &mkp MB5                                      &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp PLUS  &kp N7        &kp N8  &kp N9  &kp MINUS
+&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0            &trans    &kp DOT   &kp N4        &kp N5  &kp N6  &kp ASTRK
+&kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp DOT       &trans    &trans    &kp N0    &kp NUMBER_1  &kp N2  &kp N3  &kp SLASH
+&trans        &trans        &trans        &trans        &trans        &trans    &mkp MB4  &mkp MB5                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -161,10 +161,10 @@
 
         layer_3 {
             bindings = <
-&kp EXCLAMATION  &kp DQT    &kp HASH   &kp DOLLAR  &kp PERCENT                         &kp AMPERSAND  &kp PIPE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&kp QUESTION     &kp SQT    &kp EQUAL  &kp TILDE   &kp UNDERSCORE            &trans    &kp MINUS      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN
-&none            &kp GRAVE  &kp LBKT   &kp RBKT    &kp CARET       &trans    &trans    &kp PLUS       &kp ASTERISK      &kp COMMA             &kp PERIOD             &kp SLASH
-&trans           &trans     &trans     &trans      &trans          &trans    &mkp MB4  &mkp MB5                                                                      &trans
+&kp EXCLAMATION  &kp DQT    &kp HASH   &kp DOLLAR  &kp PERCENT                          &kp AMPERSAND  &kp PIPE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&kp QUESTION     &kp SQT    &kp EQUAL  &kp TILDE   &kp UNDERSCORE            &trans     &kp MINUS      &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN
+&none            &kp GRAVE  &kp LBKT   &kp RBKT    &kp CARET       &trans    &trans     &kp PLUS       &kp ASTERISK      &kp COMMA             &kp PERIOD             &kp SLASH
+&trans           &trans     &trans     &trans      &trans          &trans    &kp LANG1  &kp LANG2                                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
